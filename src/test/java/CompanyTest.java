@@ -23,7 +23,7 @@ public class CompanyTest {
 
     @BeforeEach
     void setUp() {
-        healthplan = new Healthplan(1, "A Sigorta", Plan.BASIC);
+        healthplan = new Healthplan("A Sigorta",1 , Plan.BASIC);
         String[] healthplans = new String[2];
         healthplans[0] = healthplan.getName();
         employee = new Employee(1, "John Doe", "jd@test.com", "1234", healthplans);
