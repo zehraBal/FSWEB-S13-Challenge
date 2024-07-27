@@ -32,8 +32,8 @@ public class Company {
         return giro;
     }
 
-    public String getDeveloperNames(){
-        return Arrays.toString(developerNames);
+    public String[] getDeveloperNames(){
+        return developerNames;
     }
 
     //setter methods

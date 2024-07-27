@@ -31,8 +31,8 @@ public class Employee {
         return password;
     }
 
-    public String getHealthPlans(){
-        return Arrays.toString(healthPlans);
+    public String[] getHealthPlans(){
+        return healthPlans;
     }
     public int getId(){
         return id;
